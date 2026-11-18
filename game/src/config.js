@@ -1,0 +1,42 @@
+export const CONFIG = {
+  WIDTH: 1280,
+  HEIGHT: 720,
+  STEP: 1 / 60,
+  TOTAL_TIME: 60,
+  POLES: [380, 640, 900],
+  POLE_BASE_Y: 620,
+  POLE_TOP_Y: 130,
+  CLIMB_SPEED: 140,
+  SLIDE_SPEED: 55,
+  GRIP_DRAIN: 28,
+  GRIP_REFILL: 55,
+  PRIZES: [
+    { name: 'Small Flag', points: 50, yOffset: 110 },
+    { name: 'Radio', points: 100, yOffset: 210 },
+    { name: 'Rice Cooker', points: 150, yOffset: 310 },
+    { name: 'Television', points: 250, yOffset: 410 },
+    { name: 'Bicycle', points: 500, yOffset: 475, isBicycle: true }
+  ],
+  COLORS: {
+    skyTop: '#1a0b2e',
+    skyMid: '#c85a17',
+    skyBottom: '#ffb347',
+    sun: '#fffdcc',
+    cloud: 'rgba(255, 220, 180, 0.35)',
+    flagRed: '#d9381e',
+    flagWhite: '#f7f7f7',
+    poleWood: '#2e5a1b',
+    poleHighlight: '#528a35',
+    poleNode: '#18330e',
+    grease: 'rgba(255, 255, 220, 0.45)',
+    climberShirt: '#e63922',
+    climberPants: '#2b3a4a',
+    climberSkin: '#d49b6a',
+    crowd: '#110703',
+    hudBg: 'rgba(18, 8, 0, 0.75)',
+    hudText: '#ffffff',
+    accentYellow: '#ffd700',
+    barGreen: '#2ecc71',
+    barRed: '#e74c3c'
+  }
+};
